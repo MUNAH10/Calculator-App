@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Calculator app</title>
+  </head>
+  
+  <body class="theme-1">
+        <main>
+          <div class="header">
+            <h1>calc</h1>
+            <div class="content-switch">
+              <span>THEME</span>
+              <div class="switch">
+                <!-- 1 -->
+                <label for="theme-1">1</label>
+                <input type="radio" name="theme" id="theme-1" value="1" />
+                <!-- 2 -->
+                <label for="theme-2">2</label>
+                <input type="radio" name="theme" id="theme-2" value="2" />
+                <!-- 3 -->
+                <label for="theme-3">3</label>
+                <input type="radio" name="theme" id="theme-3" value="3" />
+                <!-- toggle -->
+                <div class="toggle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="calculator">
+            <div class="result-box"><span id="operation"></span><span id="result"></span></div>
+            <div class="keypad">
+              <div class="key">7</div>
+              <div class="key">8</div>
+              <div class="key">9</div>
+              <div class="clear del key">DEL</div>
+    
+              <div class="key">4</div>
+              <div class="key">5</div>
+              <div class="key">6</div>
+              <div class="key">+</div>
+    
+              <div class="key">1</div>
+              <div class="key">2</div>
+              <div class="key">3</div>
+              <div class="key">-</div>
+    
+              <div class="key">.</div>
+              <div class="key">0</div>
+              <div class="key">/</div>
+              <div class="key">x</div>
+    
+              <div class="reset key clear">RESET</div>
+              <div class="equal key">=</div>
+            </div>
+          </div>
+        </main>
+      
+    <script src="./js/index.js"></script>
+  </body>
+</html>
